@@ -7,7 +7,7 @@ from data.users import User
 
 db_session.global_init("db/blogs.db")
 session = db_session.create_session()
-
+# gg
 
 def make_user(surname, name, age, position, speciality, address, email):
     user = User()
